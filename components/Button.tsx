@@ -1,4 +1,4 @@
-import { ButtonType } from '@/types/ButtontType'
+import { ButtonType } from '@/@types/ButtontType'
 import React, { FC } from 'react'
 
 const Button: FC<ButtonType> = ({icon, iconPosition, title, type, extraClass, variant}) => {
