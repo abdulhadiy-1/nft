@@ -205,3 +205,51 @@ export const RocketIcon = () => <svg width="20" height="20" viewBox="0 0 20 20" 
 <path fillRule="evenodd" clipRule="evenodd" d="M14.422 8.49219C14.7672 8.49219 15.047 8.77201 15.047 9.11719V14.1641L15.0469 14.173C15.0423 14.5013 14.9086 14.8145 14.675 15.045L12.1527 17.575C11.9926 17.7349 11.7921 17.8484 11.5725 17.9033C11.353 17.9582 11.1227 17.9524 10.9061 17.8867C10.6896 17.8209 10.495 17.6976 10.343 17.5299C10.1912 17.3623 10.0877 17.1567 10.0435 16.9349C10.0434 16.9347 10.0435 16.9351 10.0435 16.9349L9.38731 13.6619C9.31946 13.3235 9.53882 12.9941 9.87727 12.9263C10.2157 12.8584 10.5451 13.0778 10.6129 13.4162L11.2694 16.6906L13.797 14.1552V9.11719C13.797 8.77201 14.0768 8.49219 14.422 8.49219Z" fill="white"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M5.82722 4.95319L5.83612 4.95312H10.883C11.2282 4.95312 11.508 5.23295 11.508 5.57812C11.508 5.9233 11.2282 6.20312 10.883 6.20312H5.84496L5.83991 6.20828L5.83988 6.20825L3.30957 8.73075L3.31054 8.73094L6.58398 9.38719C6.92242 9.45504 7.14178 9.78441 7.07393 10.1229C7.00608 10.4613 6.67671 10.6807 6.33827 10.6128L3.0658 9.95675C3.06562 9.95671 3.06543 9.95668 3.06524 9.95664C2.84349 9.91244 2.63788 9.80892 2.47031 9.65711C2.3026 9.50516 2.17928 9.31054 2.11351 9.094C2.04775 8.87746 2.042 8.64712 2.09689 8.42757C2.15178 8.20802 2.26525 8.00749 2.42518 7.84738L2.42612 7.84644L2.42612 7.84644L4.95522 5.32514C5.18573 5.09151 5.49894 4.95786 5.82722 4.95319Z" fill="white"/>
 </svg>
+
+export const RuIcon = () => <svg width={20} height={20} className="scale-[1.4]" xmlns="http://www.w3.org/2000/svg" id="flag-icons-ru" viewBox="0 0 640 480">
+  <path fill="#fff" d="M0 0h640v160H0z"/>
+  <path fill="#0039a6" d="M0 160h640v160H0z"/>
+  <path fill="#d52b1e" d="M0 320h640v160H0z"/>
+</svg>
+
+export const UsIcon = () => <svg width={20} height={20} className="scale-[1.4]" xmlns="http://www.w3.org/2000/svg" id="flag-icons-us" viewBox="0 0 640 480">
+  <path fill="#bd3d44" d="M0 0h640v480H0"/>
+  <path stroke="#fff" strokeWidth="37" d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640"/>
+  <path fill="#192f5d" d="M0 0h364.8v258.5H0"/>
+  <marker id="us-a" markerHeight="30" markerWidth="30">
+    <path fill="#fff" d="m14 0 9 27L0 10h28L5 27z"/>
+  </marker>
+  <path fill="none" markerMid="url(#us-a)" d="m0 0 16 11h61 61 61 61 60L47 37h61 61 60 61L16 63h61 61 61 61 60L47 89h61 61 60 61L16 115h61 61 61 61 60L47 141h61 61 60 61L16 166h61 61 61 61 60L47 192h61 61 60 61L16 218h61 61 61 61 60z"/>
+</svg>
+  
+export const UzIcon = () => <svg width={20} height={20} className="scale-[1.4]" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" id="flag-icons-uz" viewBox="0 0 640 480">
+  <path fill="#1eb53a" d="M0 320h640v160H0z"/>
+  <path fill="#0099b5" d="M0 0h640v160H0z"/>
+  <path fill="#ce1126" d="M0 153.6h640v172.8H0z"/>
+  <path fill="#fff" d="M0 163.2h640v153.6H0z"/>
+  <circle cx="134.4" cy="76.8" r="57.6" fill="#fff"/>
+  <circle cx="153.6" cy="76.8" r="57.6" fill="#0099b5"/>
+  <g fill="#fff" transform="translate(261.1 122.9)scale(1.92)">
+    <g id="uz-e">
+      <g id="uz-d">
+        <g id="uz-c">
+          <g id="uz-b">
+            <path id="uz-a" d="M0-6-1.9-.3 1 .7"/>
+            <use xlinkHref="#uz-a" width="100%" height="100%" transform="scale(-1 1)"/>
+          </g>
+          <use xlinkHref="#uz-b" width="100%" height="100%" transform="rotate(72)"/>
+        </g>
+        <use xlinkHref="#uz-b" width="100%" height="100%" transform="rotate(-72)"/>
+        <use xlinkHref="#uz-c" width="100%" height="100%" transform="rotate(144)"/>
+      </g>
+      <use xlinkHref="#uz-d" width="100%" height="100%" y="-24"/>
+      <use xlinkHref="#uz-d" width="100%" height="100%" y="-48"/>
+    </g>
+    <use xlinkHref="#uz-e" width="100%" height="100%" x="24"/>
+    <use xlinkHref="#uz-e" width="100%" height="100%" x="48"/>
+    <use xlinkHref="#uz-d" width="100%" height="100%" x="-48"/>
+    <use xlinkHref="#uz-d" width="100%" height="100%" x="-24"/>
+    <use xlinkHref="#uz-d" width="100%" height="100%" x="-24" y="-24"/>
+  </g>
+</svg>
+

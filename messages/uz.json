@@ -1,0 +1,29 @@
+{
+  "HeadersContent": {
+    "navItem1": "Bozor",
+    "navItem2": "Reytinglar",
+    "navItem3": "Hamyonni ulang",
+    "button": "Ro'yhatdan o'thish"
+  },
+  "FootersContent": {
+    "item1": "nft marketplace UI Figma uchun Anima bilan yaratilgan.",
+    "item2": "bizning hamjamiyatimizga qo'shiling",
+    "item3": "kashf",
+    "item4": "bozor",
+    "item5": "Reytinglar",
+    "item6": "hamyonni ulang",
+    "item7": "haftalik dayjestimizga qo'shiling",
+    "item8": "maxsus aktsiyalari qiling & qutingizga to'g'ri yangiliklarini.",
+    "item9": "Ⓒ NFT bozori. Ushbu shablondan erkin foydalaning.",
+    "inpItem": "elektron pochtangizni kiriting",
+    "button": "obuna bo'lish"
+  },
+  "HeroContent": {
+    "item1": "raqamli san'atni kashf eting va Nftlarni to'plang",
+    "item2": "nft marketplace UI Figma uchun Anima bilan yaratilgan. To'plash, sotib olish va 20k dan ortiq nft rassomlar san'at sotish.",
+    "button": "ishni boshlash",
+    "total-sale": "umumiy sotish",
+    "auctions": "Auktsionlar",
+    "artists": "rassomlar"
+  }
+}

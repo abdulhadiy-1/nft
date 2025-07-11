@@ -1,0 +1,29 @@
+{
+  "HeadersContent": {
+    "navItem1": "Marketplace",
+    "navItem2": "Rankings",
+    "navItem3": "Connect a wallet",
+    "button": "Sign Up"
+  },
+  "FootersContent": {
+    "item1": "NFT marketplace UI created with Anima for Figma.",
+    "item2": "Join our community",
+    "item3": "Explore",
+    "item4": "Marketplace",
+    "item5": "Rankings",
+    "item6": "Connect a wallet",
+    "item7": "Join our weekly digest",
+    "item8": "Get exclusive promotions & updates straight to your inbox.",
+    "item9": "Ⓒ NFT Market. Use this template freely.",
+    "inpItem": "Enter your email here",
+    "button": "Subscribe"
+  },
+  "HeroContent": {
+    "item1": "Discover digital art & Collect NFTs",
+    "item2": "NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
+    "button": "Get Started",
+    "total-sale": "Total Sale",
+    "auctions": "Auctions",
+    "artists": "Artists"
+  }
+}

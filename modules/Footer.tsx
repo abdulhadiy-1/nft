@@ -9,12 +9,15 @@ import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import Input from "@/components/Input";
 import Text from "@/components/Text";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 
 const Footer = () => {
+  const t = useTranslations("FootersContent")
+
   return (
-    <footer>
+    <footer className="bg-[var(--clr-grey)] py-[40px]"> 
       <div className="containers">
         <div className="space-y-[30px] lg:space-y-0 lg:flex justify-between border-b-[1px] border-b-[#858584] pb-[30px]">
           <div>
@@ -22,10 +25,10 @@ const Footer = () => {
               <Image src={"/FullLogo.svg"} alt="logo" width={243} height={32} />
             </Link>
             <Text classList="mb-[20px] max-w-[230px]">
-              NFT marketplace UI created with Anima for Figma.
+              {t("item1")}
             </Text>
             <div>
-              <Text classList="mb-[15px]">Join our community</Text>
+              <Text classList="mb-[15px]">{t("item2")}</Text>
               <div className="flex items-center gap-[10px]">
                 <Link href={"/"}>
                   <DiscordIcon />
@@ -43,25 +46,25 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <Heading classList="mb-[25px] !text-[22px]">Explore</Heading>
-            <Text classList="mb-[20px]">Marketplace</Text>
-            <Text classList="mb-[20px]">Rankings</Text>
-            <Text classList="mb-[20px]">Connect a wallet</Text>
+            <Heading classList="mb-[25px] !text-[22px]">{t("item3")}</Heading>
+            <Text classList="mb-[20px]">{t("item4")}</Text>
+            <Text classList="mb-[20px]">{t("item5")}</Text>
+            <Text classList="mb-[20px]">{t("item6")}</Text>
           </div>
-          <div>
-            <Heading classList="mb-[25px] !text-[22px]">
-              Join our weekly digest
+          <div className="max-w-[425px]">
+            <Heading classList="mb-[25px] !text-[22px] ">
+              {t("item7")}
             </Heading>
             <Text classList="mb-[20px]  max-w-[330px]">
-              Get exclusive promotions & updates straight to your inbox.
+              {t("item8")}
             </Text>
             <div className="flex bg-white rounded-[20px] max-w-[420px] justify-between">
-              <Input type="email" placeholder="Enter your email here" />
-              <Button type="button" title="Subscribe" icon={<MessageIcon />} iconPosition="left" variant="filled"/>
+              <Input type="email" placeholder={t("inpItem")} />
+              <Button type="button" title={t("button")} icon={<MessageIcon />} iconPosition="left" variant="filled"/>
             </div>
           </div>
         </div>
-        <Text classList="my-5">Ⓒ NFT Market. Use this template freely.</Text>
+        <Text classList="my-5">{t("item9")}</Text>
       </div>
     </footer>
   );
