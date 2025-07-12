@@ -29,5 +29,34 @@
   "CollectionContent":{
     "item1": "Trending Collection",
     "item2": "Checkout our weekly updated trending collection."
+  },
+  "CreatorContent":{
+    "item1": "Top creators",
+    "item2": "Checkout Top Rated Creators on the NFT Marketplace.",
+    "button": "View Rankings"
+  },
+  "CategoryContent": {
+    "item1": "Browse Categories"
+  },
+  "DiscoverContent": {
+    "item1": "Discover More NFTs",
+    "item2": "Explore new trending NFTs",
+    "button": "See All"
+  },
+  "LearningContent": {
+    "item1": "How it works",
+    "item2": "Find out how to get started",
+    "card1item": "Setup Your wallet",
+    "card1text": "Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.",
+    "card2item": "Create Collection",
+    "card2text": "Upload your work and setup your collection. Add a description, social links and floor price.",
+    "card3item": "Start Earning",
+    "card3text": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+  },
+  "JoinContent": {
+    "item1": "Join our weekly digest",
+    "item2": "Get exclusive promotions & updates straight to your inbox.",
+    "inp-item": "Enter your email here",
+    "button": "Subscribe" 
   }
 }

@@ -16,22 +16,22 @@ const NavbarModal = () => {
       setIsopen(i)
       setTimeout(() => {
         setIsopenModal(i)
-      }, 500);
+      }, 300);
     }else{
       setIsopenModal(i)
       setTimeout(() => {
         setIsopen(i)
-      }, 500);
+      }, 300);
     }
   }
 
   return (
-    <div>
-      <button className="lg:hidden" onClick={() => handleClick(true)}>
+    <div className="lg:hidden">
+      <button onClick={() => handleClick(true)}>
         <MenuIcon />
       </button>
-      <div className={`lg:hidden fixed ${isOpen ? "left-0 right-0 top-0 bottom-0" : "left-0 right-full top-0 bottom-0"} duration-500 bg-[#ffffff67] backdrop-blur-sm`}>
-        <div className={`absolute ${isOpenModal ? "w-[300px]" : "w-0"} duration-500 h-full right-0 bg-[#2b2b2b] overflow-hidden`}>
+      <div className={`lg:hidden fixed ${isOpen ? "left-0 right-0 top-0 bottom-0" : "left-0 right-full top-0 bottom-0"} duration-300 bg-[#ffffff67] backdrop-blur-sm`}>
+        <div className={`absolute ${isOpenModal ? "h-full w-[300px]" : "h-0 w-0"} duration-300 right-0 bg-[#2b2b2b] overflow-hidden`}>
           <button className="absolute right-[20px] top-[20px]" onClick={() => handleClick(false)}>
             <ArrowRightIcon />
           </button>

@@ -1,4 +1,5 @@
 "use client"
+import { CollectionType } from "@/@types/CollectionType";
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import { API } from "@/hooks/getApi";
@@ -7,7 +8,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
-const Collections = ({collections}: {collections: any[]}) => {
+const Collections = ({collections}: {collections: CollectionType[]}) => {
     const t = useTranslations("CollectionContent")
 const {data: collectionList, isLoading: collectionLoading} = getQueryData("/collections?limit=3", collections, 'collections')
   return (
@@ -23,7 +24,7 @@ const {data: collectionList, isLoading: collectionLoading} = getQueryData("/coll
                         <div className="flex justify-between">
                             <Image className="w-[100px] h-[100px] rounded-[20px]" width={100} height={100} src={`${API}/file/${item.images[1]}`} alt="a" priority/>
                             <Image className="w-[100px] h-[100px] rounded-[20px]" width={100} height={100} src={`${API}/file/${item.images[2]}`} alt="a" priority/>
-                            <Button extraClass="!text-[22px] !w-[100px] !h-[100px] flex items-center justify-center" type="button" variant="filled"  title="100+"/>
+                            <Button extraClass="!text-[22px] !w-[100px] !h-[100px] flex items-center justify-center" type="button" variant="filled"  title={`${item.images.length}+`} />
                         </div>
                         <Heading classList="!text-[22px]">{item.title}</Heading>
                         <div className="flex gap-[12px]">

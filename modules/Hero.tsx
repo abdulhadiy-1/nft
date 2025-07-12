@@ -36,7 +36,7 @@ export default function Hero({ auctions, artists, auctionsResults, nft }: { auct
           type="button"
           title={t("button")}
           variant="filled"
-          icon={<RocketIcon />}
+          icon={<RocketIcon color="white"/>}
           iconPosition="left"
           extraClass="!w-full justify-center md:!w-auto"
         />

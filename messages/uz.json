@@ -29,5 +29,34 @@
   "CollectionContent": {
     "item1": "ommabop to'plam",
     "item2": "haftalik yangilangan trend kolleksiyamizni tekshiring."
+  },
+  "CreatorContent": {
+    "item1": "Top ijodkorlar",
+    "item2": "nft bozorda Checkout Top Rated yaratuvchilarmi.",
+    "button": "Reytinglarni ko'rish"
+  },
+  "CategoryContent": {
+    "item1": "Kategoriyalarni Ko'rib Chiqing"
+  },
+  "DiscoverContent": {
+    "item1": "ko'proq Nftlarni kashf eting",
+    "item2": "yangi trendli Nftlarni o'rganing",
+    "button": "hammasini ko'rish"
+  },
+  "LearningContent": {
+    "item1": "Bu qanday ishlaydi",
+    "item2": "Qanday boshlashni bilib oling",
+    "card1item": "Hamyoningizni sozlang",
+    "card1text": "Siz tanlagan hamyonni sozlang. Yuqori o'ng burchakdagi hamyon belgisini bosish orqali uni Animarketga ulang.",
+    "card2item": "To'plam Yaratish",
+    "card2text": "Ishingizni yuklang va to'plamingizni sozlang. Tavsif, ijtimoiy havolalar va zamin narxini qo'shing.",
+    "card3item": "Daromad Boshlash",
+    "card3text": "Auktsionlar va belgilangan narxlar ro'yxatini tanlang. Nftlaringizni sotish yoki boshqalarni sotish orqali daromad olishni boshlang."
+  },
+  "JoinContent": {
+    "item1": "haftalik dayjestimizga qo'shiling",
+    "item2": "maxsus aktsiyalari qiling & qutingizga to'g'ri yangiliklarini.",
+    "inp-item": "elektron pochtangizni bu erga kiriting",
+    "button": "obuna bo'lish"
   }
 }

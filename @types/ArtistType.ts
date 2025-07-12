@@ -1,3 +1,6 @@
+import { CollectionType } from "./CollectionType";
+import { NftType } from "./NftType";
+
 export interface ArtistType {
   id: string;
   username: string;
@@ -13,7 +16,7 @@ export interface ArtistType {
   instagramAccLink: string;
   createdAt: string;
   updatedAt: string;
-  createdNFTs: any[];
-  ownedNFTs: any[];
-  collections: any[];
+  createdNFTs: NftType[];
+  ownedNFTs: NftType[];
+  collections: CollectionType[];
 }
