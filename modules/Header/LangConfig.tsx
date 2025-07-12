@@ -10,7 +10,7 @@ const langs = [
   { id: 3, icon: <UsIcon />, title: "en", content: "En" },
 ];
 
-const LangConfig = () => {
+const LangConfig = ({position}:{position: 'top' | 'bottom'}) => {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -46,7 +46,7 @@ const LangConfig = () => {
         <span>{activeLang?.content}</span>
       </div>
 
-      <div className="h-0 lang-popup overflow-hidden duration-300 space-y-1 absolute top-[24px] left-[-15px] rounded-md bg-[var(--clr-violet)]">
+      <div className={`h-0 lang-popup overflow-hidden duration-300 space-y-1 absolute ${position == 'top'? "bottom-[24px]" : "top-[24px]"} left-[-15px] rounded-md bg-[var(--clr-violet)]`}>
         {langs
           .filter((lang) => lang.id !== activeId)
           .map((lang) => (

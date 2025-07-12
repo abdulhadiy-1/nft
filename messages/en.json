@@ -25,5 +25,9 @@
     "total-sale": "Total Sale",
     "auctions": "Auctions",
     "artists": "Artists"
+  },
+  "CollectionContent":{
+    "item1": "Trending Collection",
+    "item2": "Checkout our weekly updated trending collection."
   }
 }

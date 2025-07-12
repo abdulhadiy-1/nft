@@ -58,7 +58,7 @@ const Footer = () => {
             <Text classList="mb-[20px]  max-w-[330px]">
               {t("item8")}
             </Text>
-            <div className="flex bg-white rounded-[20px] max-w-[420px] justify-between">
+            <div className="flex flex-col md:flex-row gap-4 md:gap-0  md:bg-white rounded-[20px] w-full md:w-max justify-between">
               <Input type="email" placeholder={t("inpItem")} />
               <Button type="button" title={t("button")} icon={<MessageIcon />} iconPosition="left" variant="filled"/>
             </div>

@@ -29,8 +29,14 @@ body {
   padding: 8px;
 }
 
-@media (width <= 64rem /* 1024px */) {
+@media (width <= 64rem) {
   .containers {
     padding-inline: 72px;
+  }
+}
+
+@media (width <= 48rem) {
+  .containers {
+    padding-inline: 30px;
   }
 }

@@ -12,11 +12,11 @@ const Button: FC<ButtonType> = ({
   return (
     <button
       type={type}
-      className={`cursor-pointer py-[18px] px-[30px] border-[2px] ${
+      className={`cursor-pointe w-maxr py-[18px] px-[30px] border-[2px] ${
         variant == "outlined"
           ? "border-[#A259FF]"
           : "border-transparent bg-[#A259FF]"
-      }  text-white rounded-[20px] font-semibold text-[16px] flex items-center gap-3 ${extraClass}`}
+      }  text-white rounded-[20px] font-semibold text-[16px] flex items-center gap-3 cursor-pointer ${extraClass}`}
     >
       {iconPosition == "left" && icon}
       {title}
